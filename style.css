@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Hammersmith+One');
+
+:root {
+    --main-color: black;
+    --secondary-color: white;
+    font-family: 'PT+Sans', sans-serif;
+}
+
+body {
+    max-width: 1100px;
+    margin: auto;
+    min-width: 320px;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+}
+header img {
+    display: block;
+    max-width: 500px;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+}
+
+main table {
+    display: flex;
+    justify-content: center;
+}
+
+main .table-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .best-travel-heading {
+    display: flex;
+    justify-content: center;
+}
+
+div .card img {
+    display: block;
+    /* width: 100%; */
+    max-width: 350px;
+}
+
+div .card {
+    width: 10rem;
+    justify-self: center;
+    
+}
+div h3 {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
